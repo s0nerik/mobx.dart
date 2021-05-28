@@ -60,7 +60,7 @@ class ReactiveConfig {
     this.writePolicy,
     this.readPolicy,
     this.maxIterations = 100,
-    this.isSpyEnabled = true,
+    this.isSpyEnabled = false,
   });
 
   /// The main or default configuration used by [ReactiveContext]
